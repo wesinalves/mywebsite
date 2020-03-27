@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./layout.css"
-import Profile from "./Profile"
+import Profile from "../Profile"
 
 const Layout = ({ children }) => {
 
