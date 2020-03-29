@@ -10,31 +10,22 @@ import PropTypes from "prop-types"
 
 import Profile from "../Profile"
 
-import styled from 'styled-components'
+
 import GlobalStyles from '../../styles/global'
 
-const LayoutWrapper = styled.section`
-    display: flex;
-`
+import * as S from './styled'
 
-const LayoutMain = styled.main`
-    background: #16202c;
-    min-height: 100vh;
-    padding: 0 3.75rem 0 20rem;
-    transition: background, color 0.5s;
-    width: 100%;
-`
 
 const Layout = ({ children }) => {
 
     return (
-        <LayoutWrapper>
+        <S.LayoutWrapper>
             <GlobalStyles />
             <aside>
                 <Profile/>
             </aside>
-            <LayoutMain>{children}</LayoutMain>
-        </LayoutWrapper>
+            <S.LayoutMain>{children}</S.LayoutMain>
+        </S.LayoutWrapper>
     )
 }
 
