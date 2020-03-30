@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -15,14 +14,7 @@ const AboutPage = () => (
         in research and development projects related to deep learning and data analysis. 
         systems. My topics of interest are software engineering, data science, and artificial neural networks.
         </p>
-        <ul>
-            <li>
-                <Link to="/" activeStyle={{ color: "blue"}}>Home</Link>
-            </li>
-            <li>
-                <Link to="/about" activeStyle={{ color: "blue"}}>About</Link>
-            </li>
-        </ul>
+       
     </Layout>
 )
 
