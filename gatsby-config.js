@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `My resume online`,
-    description: `I am senior computer engineer over than 12 years of experience in the IT field. 
-    I've been working with software developement and machine learning research.`,
+    description: `I am senior computer engineer over than 12 years of experience.`,
     author: `@myresume`,
     position: `Computer Engineer`,
   },
