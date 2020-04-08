@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Instalando o Tensorflow no Windows"
+description: Este guia explica como instalar o TensorFlow no sitema operacional Windows
+title:  Instalando o Tensorflow no Windows
 date:   2018-09-13 15:32:14 -0300
-categories: tensorflow
+category: TF
+background: "#7AAB13"
 ---
 ![windows]({{"/assests/img/posts/Microsoft10.jpg"}})
 ##### Sistema operacional Windows.

@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Instalando o Tensorflow no macOs"
+description: Este guia explica como instalar o TensorFlow no macOs. Embora essas instruções possam funcionar em outras variantes do macOs, elas são testadas e suportadas com os seguintes requisitos de sistema.
+title:  Instalando o Tensorflow no macOs
 date:   2018-09-05 15:00:14 -0300
-categories: tensorflow
+category: TF
+background: "#7AAB13"
 ---
 ![macos]({{"/assests/img/posts/macoshero.jpg"}})
 ##### Sistema operacional macOs.

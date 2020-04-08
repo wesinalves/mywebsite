@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Como fazer classificação binária de textos"
+description: O conjunto de dados IMDB será usado para treinamento do modelo. O IMDB contém 50.000 revisões em forma de texto e será divido em 25.000 revisões para treino e 25.000 revisões para o teste.
+title:  Como fazer classificação binária de textos
 date:   2018-10-16 10:43:14 -0300
-categories: tensorflow
+category: ML
+background: "#7AAB13"
 ---
 
 Olá, seja bem vindo(a) a mais um tópico na série de estudo sobre Tensorflow. Hoje iremos implementar uma rede neural para uma tarefa de classificação de texto usando avaliações de filmes como base de dados, ou em outras palavras, com base na avaliação de revisores iremos classificá-la em positiva ou negativa. A classificação binária é um importante tipo de aplicação do aprendizado de máquina. Espero que você já tenha preparado seu ambiente para rodar os scripts, senão, confira os links ao final do post e siga a opção desejada.

@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Instalando o Tensorflow - apresentação"
+title:  Instalando o Tensorflow - apresentação
+description: O Tensorflow foi construído e testado tanto para laptop quanto para desktop
 date:   2018-08-30 14:37:14 -0300
-categories: tensorflow
+category: TF
+background: "#7AAB13"
 ---
 ![dali]({{"/assests/img/posts/salvadordali.jpg"}})
 ##### Obra de Salvador Dalí. Se você sabe o nome desse quadro, por favor, coloque nos comentários.

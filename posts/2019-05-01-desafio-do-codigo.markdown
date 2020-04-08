@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Sobre o desafio dos #100DaysOfCode."
+description: O desafio 100daysofcode é uma maratona onde o participante é incentivado a programar no mínimo uma hora por dia durante 100 dias e tweetar seu progresso usando a hashtag 100DaysOfCode. 
+title:  Sobre o desafio dos 100DaysOfCode.
 date:   2019-05-01 15:32:14 -0300
-categories: programacao
+category: PR
+background: "#7AAB13"
 ---
 
 Um dia desses eu li um artigo interessante do meu amigo Adriano chamado [A incrível habilidade de dizer não sei][naosei]. Comentei que havia achado muito legal a iniciativa de voltar a escrever textos e que estava planejando voltar a escrever também. Ainda nos comentários, ele me ensinou que não precisamos esperar a oportunidade ideal para começar e me incentivou a fazer o mesmo, sugerindo, inclusive, que eu escrevesse sobre o desafio dos [#100daysofcode][siteoficial] que realizei no ano passado. Pois bem, aceitei a proposta e aqui estou para falar sobre as experiências que tive ao participar desse desafio.

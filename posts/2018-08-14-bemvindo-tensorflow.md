@@ -1,5 +1,6 @@
 ---
-title:  "Bem vindo(a) ao Tensorflow!"
+title:  Bem vindo(a) ao Tensorflow!
+description: Tensorflow é uma biblioteca código aberto de aprendizado de máquina utilizado em pesquisas e produções científicas.
 date:   2018-08-14 23:43:14 -0300
 category: TF
 background: "#7AAB13"

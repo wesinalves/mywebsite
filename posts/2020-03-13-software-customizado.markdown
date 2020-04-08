@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Software customizado x Software não-customizado"
+description: Software é tanto o produto quanto a ferramenta para desenvolver o produto
+title:  Software customizado x Software não-customizado
 date:   2020-03-13 13:10:14 -0300
-categories: software
+category: SW
+background: "#7AAB13"
 ---
 ![software]({{"/assests/img/posts/software-customizado-post.jpg"}})
 

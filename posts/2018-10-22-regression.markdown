@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Como prever o valor de venda de uma casa?"
+description: Em um problema de regressão, pretendemos prever a saída que contém um valor contínuo, representando um preço ou uma probabilidade
+title:  Como prever o valor de venda de uma casa?
 date:   2018-10-22 10:43:14 -0300
-categories: tensorflow
+category: ML
+background: "#7AAB13"
 ---
 
 Olá, seja bem vindo(a) a mais um tópico na série de estudo sobre Tensorflow. Hoje iremos implementar uma rede neural para uma tarefa de regressão em preços de imóveis. Problemas de regrssão são um importante assunto dentro da área de aprendizado de máquina. Espero que você já tenha preparado seu ambiente para rodar os scripts, senão, confira os links ao final do post e siga a opção desejada.

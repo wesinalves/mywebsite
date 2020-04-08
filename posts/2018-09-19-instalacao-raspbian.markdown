@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Instalando o Tensorflow no Raspbian"
+description: Este guia explica como instalar o TensorFlow no Repberry Pi rodando o sistema Raspbian
+title:  Instalando o Tensorflow no Raspbian
 date:   2018-09-13 15:32:14 -0300
-categories: tensorflow
+category: TF
+background: "#7AAB13"
 ---
 ![respbian]({{"/assests/img/posts/install_tensorflow_on_raspberry_pi.jpg"}})
 ##### Sistema operacional Raspbian.

@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Sete curiosidades sobre Ada Lovelace."
+description: É bem verdade que a área de teconlogia é dominada por homens, mas foi graças a Ada Lovelace que as primeiras linhas de código foram escritas.
+title:  Sete curiosidades sobre Ada Lovelace.
 date:   2019-03-08 14:30:14 -0300
-categories: biography
+category: BIO
+background: "#7AAB13"
 ---
 ![ada]({{"/assests/img/posts/ada.jpg"}})
 
