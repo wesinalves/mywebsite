@@ -1,21 +1,52 @@
-import React from "react"
+import React from "react";
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
-import PostItem from "../components/PostItem"
+import Layout from "../components/Layout";
+import SEO from "../components/seo";
+import PostItem from "../components/PostItem";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-        <PostItem slug="/"
-            category="misc"
-            date="02 de abril de 2020"
-            timeToRead="4"
-            title="Meu primeiro post"
-            description="descrição do meu primeiro post"
-        />
-              
-  </Layout>
-)
+const IndexPage = () => {
+    const { allMarkdownRemark } = useStaticQuery(graphql`
+        query PostList {
+            allMarkdownRemark {
+                edges {
+                  node {
+                    frontmatter {
+                      background
+                      category
+                      title
+                      description
+                      date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+                    }
+                    timeToRead
+                  }
+                }
+              }
+        }
+    `)
+
+    const postList = allMarkdownRemark.edges
+    return (
+    <Layout>
+        <SEO title="Home" />
+            {postList.map(({
+                node: {
+                    frontmatter: {background, category, title, description, date},
+                    timeToRead
+                },
+            }) => (
+                <PostItem slug="/"
+                background={background}
+                category={category}
+                date={date}
+                timeToRead={timeToRead}
+                title={title}
+                description={description}
+                />
+            ))}
+            
+                
+    </Layout>
+    )}
 
 export default IndexPage
